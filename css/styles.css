@@ -1,0 +1,60 @@
+/* Local Font */
+@font-face {
+    font-family: SF Pro;
+    src: url('../resources/font/SF-Pro.ttf');
+}
+/* Project Colors*/
+:root {
+    --background: #ece5dd;
+}
+
+/* Predefined Styles */
+.flex { display: flex; }
+.flex-column { flex-direction: column; }
+.justify-center { justify-content: center; }
+.align-center { align-items: center; }
+.align-left { align-items: flex-start; }
+.text-center { text-align: center; }
+.decoration-none { text-decoration: none; }
+.bold { font-weight: bold; }
+.bg-std { background-color: var(--background); }
+.font-std { font-family: SF Pro; }
+.mvh-100 { min-height: 100vh; }
+.title { font-size: 3rem; }
+
+/* Styles */
+#wrapper {
+    flex: 1;
+}
+#content {
+    gap: 10px;
+}
+strong {
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+}
+a:visited{
+    color: #808080;
+}
+p {
+    width: 90%;
+    color: #808080;
+}
+form {
+    gap: 5px;
+}
+button{
+    cursor: pointer;
+    padding-inline: 20px;
+}
+footer {
+    color: #808080;
+    letter-spacing: 1px;
+    padding: 8px;
+}
+footer a:hover {
+    border-bottom: 1px solid #808080;
+    cursor: pointer;
+}
